@@ -7,5 +7,5 @@
   - name: "What's my password again?"
     debug:
 #      msg: '{{ test }}'
-#      msg: "{{ lookup('hashi_vault', 'secret=secret/data/pulp token=s.smm9S3qMohPRrNZMjRKO2eQf url=http://192.168.1.190:8200')}}"
-      msg: "{{ lookup('hashi_vault', 'secret=serverops/data/pulp:data')['password']}}"
+      msg: "{{ lookup('hashi_vault', 'secret=secret/data/pulp token=s.smm9S3qMohPRrNZMjRKO2eQf url=http://192.168.1.190:8200')}}"
+#      msg: "{{ lookup('hashi_vault', 'secret=serverops/data/pulp:data')['password']}}"
